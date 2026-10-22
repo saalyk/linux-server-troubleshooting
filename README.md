@@ -1,6 +1,3 @@
-# Linux Server Troubleshooting
-
-## Overview
 This project documents practical Linux administration commands and troubleshooting procedures for common server issues.
 
 ## Objectives
@@ -30,3 +27,26 @@ All exercises are performed in a local learning environment. No production syste
 ## Progress
 This project is under active development. Each topic will include commands, sample outputs, and troubleshooting notes.
 
+## Bash Automation: System Health Check
+
+Created a Bash script to automate basic Linux system health checks.
+
+### Information Collected
+- Current date and time
+- Root filesystem disk usage
+- Memory and swap usage
+- System uptime and load average
+- Running systemd services
+
+### How to Run
+
+```bash
+chmod +x system-health-check.sh
+./system-health-check.sh
+```
+
+### Skills Practiced
+- Bash scripting
+- Linux system monitoring
+- Command-line automation
+- Git and GitHub version control
