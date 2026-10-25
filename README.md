@@ -50,3 +50,28 @@ chmod +x system-health-check.sh
 - Linux system monitoring
 - Command-line automation
 - Git and GitHub version control
+
+## Bash Automation: Disk Usage Monitor
+
+Created a Bash script to monitor root filesystem disk usage and log warnings when usage reaches or exceeds 80%.
+
+### Features
+- Checks root filesystem disk usage.
+- Uses an 80% warning threshold.
+- Displays a warning with a timestamp when the threshold is reached.
+- Appends warnings to `disk-usage.log` for later review.
+
+### How to Run
+
+```bash
+chmod +x disk-usage-monitor.sh
+./disk-usage-monitor.sh
+
+
+```
+
+### Skills Practiced
+- Bash scripting and conditional logic
+- Linux disk monitoring
+- Log file management
+- Testing warning conditions
